@@ -1,0 +1,7 @@
+$schema: 1.0
+name: clone-repo
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-pro-general-win11-m365-gen2
+tasks:
+    - name: git-clone
+      parameters:
+        repositoryUrl: https://github.com/microsoft/devcenter-catalog.git
