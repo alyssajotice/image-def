@@ -1,0 +1,7 @@
+$schema: 1.0
+name: custom-image
+image: ally_gallery_2
+tasks:
+    - name: choco
+      parameters:
+        package: notepadplusplus.install
