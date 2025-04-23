@@ -1,6 +1,6 @@
 $schema: 1.0
 name: custom-image
-image: dhruvHibernateTestGallery/W11VSExpandedDisk/1.0.1
+image: dhruvHibernateTestGallery/W11VSExpandedDisk@1.0.1
 tasks:
     - name: ~/powershell
       parameters:
