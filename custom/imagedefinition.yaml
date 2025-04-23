@@ -1,8 +1,7 @@
 $schema: 1.0
 name: custom-image
-image: ally_gallery/ally_gallery_2/1.0.0
+image: dhruvHibernateTestGallery/DevDivDaily/1.0.2
 tasks:
     - name: ~/powershell
       parameters:
-        runAsUser: true
         script: winget install --id=Microsoft.PowerToys --accept-package-agreements --accept-source-agreements winget install --id=Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements winget install --id=Microsoft.WindowsTerminal --accept-package-agreements --accept-source-agreements winget install --id=Git.GitHubDesktop --accept-package-agreements --accept-source-agreements
