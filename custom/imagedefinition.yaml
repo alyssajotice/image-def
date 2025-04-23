@@ -4,4 +4,5 @@ image: dhruvHibernateTestGallery/W11VSExpandedDisk@1.0.1
 tasks:
     - name: ~/powershell
       parameters:
+        runAsUser: true
         script: winget install --id=Microsoft.PowerToys --accept-package-agreements --accept-source-agreements winget install --id=Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements winget install --id=Microsoft.WindowsTerminal --accept-package-agreements --accept-source-agreements winget install --id=Git.GitHubDesktop --accept-package-agreements --accept-source-agreements
