@@ -1,0 +1,7 @@
+$schema: 1.0
+name: custom-intuneh2
+image: dhruvHibernateTestGallery/IntuneH2@1.0.1
+userTasks:
+    - name: ~/powershell
+      parameters:
+        script: winget install --id=Microsoft.PowerToys --accept-package-agreements --accept-source-agreements winget install --id=Microsoft.VisualStudioCode --accept-package-agreements --accept-source-agreements winget install --id=Microsoft.WindowsTerminal --accept-package-agreements --accept-source-agreements winget install --id=Git.GitHubDesktop --accept-package-agreements --accept-source-agreements
